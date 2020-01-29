@@ -1,4 +1,4 @@
-# Hello word
+# Pages with links
 It is simple 6 html pages which is linked.
 * Home
 * About
