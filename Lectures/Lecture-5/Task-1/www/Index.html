@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Order food</title>
+</head>
+<body>
+    <header>
+        <p><a href="#">Food factory</a></p>
+        <ul>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contacts</a></li>
+            <li><a href="#">Registration</a></li>
+            <li><a href="#">Log in</a></li>
+        </ul>
+        <hr />
+    </header>
+
+    <main>
+        <h1>Order food</h1>
+
+        <form action="#" method="post">
+            <fieldset>
+                <legend>Billing details</legend>
+                <p>
+                    <label for="first_name">First name*</label>
+                    <input id="first_name" type="text" required name="first_name">
+                </p>
+                <p>
+                    <label for="last_name">Last name*</label>
+                    <input id="last_name" type="text" required name="last_name">
+                </p>
+                <p>
+                    <label for="email">Email*</label>
+                    <input id="email" type="email" required name="email" placeholder="Contact email">
+                </p>
+                <p>
+                    <label for="mobile_number">Mobile number*</label>
+                    <input id="mobile_number" type="number" required name="mobile_number" placeholder="+380XXXXXXXXX">
+                </p>
+            </fieldset>
+
+            <fieldset>
+                <legend>Address</legend>
+                <p>
+                    <label for="city">City*</label>
+                    <input id="city" type="text" required name="city">
+                </p>
+                <p>
+                    <label for="street_name">Street*</label>
+                    <input id="street_name" type="text" required name="street_name" placeholder="Street name">
+                </p>
+                <p>
+                    <label for="street_number">Street number*</label>
+                    <input id="street_number" type="number" required name="street_number" placeholder="Street number">
+                </p>
+                <p>
+                    <label for="flat">Flat</label>
+                    <input id="flat" type="text" name="flat" placeholder="Flat">
+                </p>
+            </fieldset>
+
+            <fieldset>
+                <legend>Pay options</legend>
+                <p>
+                    Pay type:
+                </p>
+                <p>
+                    <label for="pay_type_cash">Cash</label>
+                    <input type="radio" name="pay_type" value="pay_type_cash" id="pay_type_cash" required>
+                </p>
+                <p>
+                    <label for="pay_type_credit_card">Credit card</label>
+                    <input type="radio" name="pay_type" value="pay_type_credit_card" id="pay_type_credit_card" required>
+                </p>
+            </fieldset>
+
+            <fieldset>
+                <legend>Additional options</legend>
+                <p>
+                    <input id="create_account" type="checkbox" name="create_account">
+                    <label for="create_account">Create an account?</label>
+                </p>
+
+                <p>
+                    <label for="notes">Notes:</label>
+                </p>
+                <p>
+                    <textarea name="notes" id="notes" cols="30" rows="10">Enter notes about delivery or food</textarea>
+                </p>
+            </fieldset>
+
+            <p>
+                <input type="Submit" value="Place order">
+            </p>
+        </form>
+
+    </main>
+
+    <footer>
+        <hr />
+       <p>Food factory (c)</p>
+    </footer>
+
+</body>
+</html>
