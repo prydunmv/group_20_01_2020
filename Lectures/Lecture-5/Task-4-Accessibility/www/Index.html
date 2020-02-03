@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Accessibility</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+    <h1>Accessibility</h1>
+
+    <section>
+        <h3>Attribute alt in img tag</h3>
+        <img src="/images/logo.png" alt="LITS logo">
+    </section>
+
+    <hr>
+
+    <section>
+        <h3>Button "tag" vs "div" tag</h3>
+        <br>
+        <div class="btn btn-primary" >Show detail</div>
+        <br>
+        <br>
+        <button class="btn btn-primary" >Show detail</button>
+    </section>
+
+    <hr>
+
+    <section>
+        <h3>Tabindex example:</h3>
+        <form action="#">
+            <p>
+                <label for="first_name">First Name</label>
+                <input id="first_name" type="text" required name="first_name" tabindex="1">
+            </p>
+            <p>
+                <label for="last_name">Last Name</label>
+                <input id="last_name" type="text" required name="last_name" tabindex="2">
+            </p>
+            <p>
+                <label for="email">email</label>
+                <input id="email" type="email" required name="email" tabindex="3">
+            </p>
+            <input type="Submit" value=”Send” tabindex="4">
+        </form>
+    </section>
+
+</body>
+</html>
