@@ -92,6 +92,38 @@
                     <textarea name="notes" id="notes" cols="30" rows="10">Enter notes about delivery or food</textarea>
                 </p>
             </fieldset>
+            
+            			<fieldset>
+				<legend>Registration</legend>
+				<p>
+					<label for="name">Name</label>
+					<input id="name" type="text" required placeholder="User name">
+				</p>
+				<p>
+					<label for="password">Password</label>
+					<input id="password" type="password" required placeholder="User password">
+				</p>
+
+				<p>
+					<label for="birth">Date</label>
+					<input id="birth" type="date" required>
+				</p>
+
+				<p>
+					<label for="avatar">Add avatar</label>
+					<input id="avatar" type="file" required="required" >
+				</p>
+
+				<p>
+					<label for="experience">Select your experience</label>
+					<select id="experience" name="experience">
+						<option value="">-- none --</option>
+						<option value="high">High</option>
+						<option value="middle">Middle</option>
+						<option value="low" selected>Low</option>
+					</select>
+				</p>
+            </fieldset>
 
             <p>
                 <input type="Submit" value="Place order">
