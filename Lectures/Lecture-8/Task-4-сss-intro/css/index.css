@@ -1,0 +1,58 @@
+h1 {
+    background: red;
+    color:red;
+}
+
+.site-navigation ul {
+    list-style: none;
+}
+
+.site-navigation ul  a {
+    color: white;
+    font-size: 30px;
+    transition: 0.5s;
+    text-decoration: none;
+}
+
+.site-navigation ul  a:hover {
+    color: #615cfd;
+}
+
+.super-button {
+    background-color: blue;
+    display: inline-block;
+    padding: 12px 33px;
+    font-size: 16px;
+    font-weight: 500;
+    border: 1px solid transparent;
+    text-align: center;
+    transition: .5s;
+    cursor: pointer;
+    color: white;
+    border-radius: 30px;
+}
+.super-button:hover {
+    border: 1px solid #615cfd;
+    color: #615cfd;
+    background: 0 0;
+}
+
+
+.site-navigation ul  li {
+    display: inline-block;
+    margin: 10px;
+}
+
+.header {
+    background-color: black;
+}
+
+.box {
+    background: green;
+    width: 100px;
+    height: 100px;
+    color: white;
+    margin: 10px;
+    padding: 10px;
+    display: inline-block;
+}
