@@ -1,0 +1,39 @@
+.header {
+  background-color: #b4b4fb;
+}
+
+.banner {
+  background-color: #f9c5c5;
+  padding-bottom: 500px;
+}
+
+.appointment {
+  background-color: #b4b4fb;
+  padding-bottom: 500px;
+}
+
+.advantages {
+  background-color: #f9c5c5;
+  padding-bottom: 500px;
+}
+
+.phone {
+  background-color: #b4b4fb;
+  padding-bottom: 150px;
+}
+
+.services {
+  background-color: #f9c5c5;
+  padding-bottom: 500px;
+}
+
+.subscribe {
+  background-color: #b4b4fb;
+  padding-bottom: 200px;
+}
+
+.footer {
+  background-color: #585858;
+  padding-bottom: 400px;
+}
+/*# sourceMappingURL=main.css.map */

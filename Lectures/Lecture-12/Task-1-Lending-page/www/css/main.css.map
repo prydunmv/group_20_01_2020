@@ -1,0 +1,19 @@
+{
+    "version": 3,
+    "mappings": "AGAA,AAAA,OAAO,CAAC;EACJ,gBAAgB,EAAE,OAAO;CAC5B;;ACFD,AAAA,OAAO,CAAC;EACJ,gBAAgB,EAAE,OAAO;EACzB,cAAc,EAAE,KAAK;CACxB;;ACHD,AAAA,YAAY,CAAC;EACT,gBAAgB,EAAE,OAAO;EACzB,cAAc,EAAE,KAAK;CACxB;;ACHD,AAAA,WAAW,CAAC;EACR,gBAAgB,EAAE,OAAO;EACzB,cAAc,EAAE,KAAK;CACxB;;ACHD,AAAA,MAAM,CAAC;EACH,gBAAgB,EAAE,OAAO;EACzB,cAAc,EAAE,KAAK;CACxB;;ACHD,AAAA,SAAS,CAAC;EACN,gBAAgB,EAAE,OAAO;EACzB,cAAc,EAAE,KAAK;CACxB;;ACHD,AAAA,UAAU,CAAC;EACP,gBAAgB,EAAE,OAAO;EACzB,cAAc,EAAE,KAAK;CACxB;;ACHD,AAAA,OAAO,CAAC;EACJ,gBAAgB,EAAE,OAAO;EACzB,cAAc,EAAE,KAAK;CACxB",
+    "sources": [
+        "main.scss",
+        "source/_variables.scss",
+        "source/_buttons.scss",
+        "source/_header.scss",
+        "source/_banner.scss",
+        "source/_appointment.scss",
+        "source/_advantages.scss",
+        "source/_phone.scss",
+        "source/_services.scss",
+        "source/_subscribe.scss",
+        "source/_footer.scss"
+    ],
+    "names": [],
+    "file": "main.css"
+}
