@@ -1,4 +1,135 @@
 .appointment {
-    background-color: #b4b4fb;
-    padding-bottom: 500px;
+    margin-bottom: 0px;
+    padding-top:90px ;
 }
+
+.container {
+width: 1110px;
+height: 700px;
+}
+
+.appoin__box {
+    display: flex;
+    flex-direction: row;
+    font-family: montserrat,sans-serif;
+    flex-wrap: wrap; 
+    margin-bottom: 100px;
+    margin-left: 50px;
+}
+
+.appoin__box-text {
+    width: 555px;
+    height: 485px;
+    padding: 10px;
+    margin-right: 20px;    
+}
+.appoin__p {
+    font-size: 18px;
+    color: $color-text;
+    margin-bottom: 0px;;
+}
+
+.appoin__h {
+    font-size: 48px;
+    font-family: montserrat,sans-serif;
+    font-weight: 400;
+}
+
+.appoin__p-text {
+    font-size: 14px;
+    color: $color-text;
+    font-family: montserrat,sans-serif;
+    line-height: 2.14;
+}
+
+.appoin__box-down {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 80px;
+    margin-right: 80px;
+    font-weight: 600;
+}
+.ap__box-bold {
+    font-weight: 700;
+    color: $slyle-color1;
+    line-height: .75;
+    font-size: 36px;
+}
+
+.appoin__box-card {
+    width: 555px;
+    height: 485px;
+    box-shadow: 0 25px 38px rgba(0,0,0,.2);
+}
+.inro__form {
+   display: flex;
+   justify-content: center;
+   align-items: center;  
+}
+
+.intro__h {
+    width: 336px;
+    height: 80px;
+    background-color: $slyle-color1;
+    color: white;
+    text-align: center;
+    padding-top: 25px;
+    font-size: 24px;
+}
+
+.intro__form-box {
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-bottom: 30px;
+}
+
+.input__form {
+    width: 210px;
+    height: 60px;
+    background: 0 0;
+    border: solid 2px #e6ebf1;
+    margin: 7px;
+    padding-left: 25px;   
+}
+.input__form:hover {
+    border-color: $slyle-color1;  
+}
+
+.select__form {
+    width: 210px;
+    height: 60px;
+    background: 0 0;
+    border: solid 2px #e6ebf1;
+    margin: 7px;
+    padding-left: 25px;
+}
+
+.select__form:hover {
+    border-color: $slyle-color1;
+}
+.appoin__button {
+    display: flex;
+    justify-content:center;
+    width: 480px;
+    height: 46px;
+    padding: 13px 10px;
+    background-color:$style-color-buttol;
+    border: 2px solid transparent;
+    border-color: $style-color-buttol;
+    font-size: 14px;
+    transition: .5s;
+    border-radius: 20px;
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+    margin-left: 30px;
+}
+
+.appoin__button:hover {
+    border: 2px solid $style-color-buttol;
+    color: $style-color-buttol;
+    background: 0 0;
+}
+
+

@@ -1,4 +1,115 @@
 .banner {
-    background-color: #f9c5c5;
-    padding-bottom: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 91px;
+    flex-wrap: wrap; 
+    // width: 100%;
+    // height: 768px;
+    font-family: montserrat,sans-serif;
+    // font-weight: 600;
+}
+.background__image {
+    width: 1280px;
+    height: 768px;
+    background: url(https://colorlib.com/preview/theme/drpro/images/home_slider.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+}
+.banner__text {
+    width: 550px;
+    height: 283px;
+    margin-left: 70px;
+    margin-top: 290px;
+}
+.banner__text-w {
+
+}
+.banner__text-s {
+    margin-top: 200px;
+    padding-top: 600px;
+    font-size: 30px;
+    font-weight: 500;
+    color: $slyle-color1;
+   
+}
+
+.banner__h{
+    font-size: 60px;
+    color: #404040;
+    font-weight: 400;
+}
+.banner__p {
+    font-size: 14px;
+    color: $color-text;
+    line-height: 2.14;
+}
+
+.banner__button-pozisen{
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+}
+
+.banner__button-r {
+    display: flex;
+    justify-content:center;
+    width: 230px;
+    height: 46px;
+    padding: 13px 10px;
+    background-color:$style-color-buttol;
+    border: 2px solid transparent;
+    border-color: $style-color-buttol;
+    font-size: 14px;
+    transition: .5s;
+    border-radius: 20px;
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.banner__button-r:hover {
+    border: 2px solid $style-color-buttol;
+    color: $style-color-buttol;
+    background: 0 0;
+}
+.banner__button-ra {
+    color: white;
+}
+.banner__button-ra:hover {
+    color:$style-color-buttol;
+}
+
+.banner__button-g {
+    display: flex;
+    justify-content:center;
+    width: 260px;
+    height: 46px;
+    padding: 13px 10px;
+    border: 2px solid transparent;
+    border-color: $slyle-color1;
+    font-size: 14px;
+    transition: .5s;
+    border-radius: 20px;
+    border: 2px solid $slyle-color1;
+    color: $slyle-color1;
+    background: 0 0;
+}
+
+.banner__button-g:hover {
+    display: flex;
+    justify-content:center;
+    width: 260px;
+    height: 46px;
+    padding: 13px 10px;
+    background-color:$slyle-color1;
+    border: 2px solid transparent;
+    border-color: $slyle-color1;
+    font-size: 14px;
+    transition: .5s;
+    border-radius: 20px;
+    color: white;
+    text-decoration: none;
 }

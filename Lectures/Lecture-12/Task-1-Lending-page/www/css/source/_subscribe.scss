@@ -1,4 +1,91 @@
 .subscribe {
-    background-color: #b4b4fb;
-    padding-bottom: 200px;
+    padding-bottom: 0px;
+}
+.subsc__background {
+    width: 100%;
+    height: 610px;
+    display: flex;
+    justify-content: flex-start;
+    background: url(https://colorlib.com/preview/theme/drpro/images/extra.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.subsc__card {
+    width: 380px;
+    height: 490px;
+    box-shadow: 0 25px 38px rgba(0,0,0,.2);
+    background-color: white;
+    margin-left: 800px;
+    margin-top: 50px;
+    padding: 47px 30px 64px 43px;
+}
+
+.subsc__text {
+display: flex;
+flex-direction: row;
+margin-bottom: 15px;
+}
+
+.subsc__text-srong {
+    font-size: 60px;
+    font-weight: 600;
+    color: $slyle-color1;
+    font-family: montserrat,sans-serif;
+    line-height: .75;
+}
+
+.subsc__text-srong-span {
+    display: inline-block;
+    font-size: 36px;
+    font-weight: 400;
+    vertical-align: super;
+}
+
+.subsc__text-strong-d {
+    font-size: 24px;
+    font-weight: 500;
+    color: #979797;
+    line-height: .75;
+    padding-top: 26px;
+}
+
+.subsc__extra {
+    font-size: 72px;
+    color: #404040;
+    line-height: 1.11;
+    font-weight: 500;
+    font-family: montserrat,sans-serif;
+}
+
+.subsc__text-p {
+    font-family: montserrat,sans-serif;
+    font-size: 14px;
+    line-height: 1.11;
+    font-weight: 500;
+    color: #828282;
+    margin-top: 20px;
+}
+
+.subsc__button {
+    display: flex;
+    justify-content: center;
+    width: 167px;
+    height: 46px;
+    padding: 11px 10px;
+    background-color:$style-color-buttol;
+    border: 2px solid transparent;
+    border-color: $style-color-buttol;
+    font-size: 14px;
+    transition: .5s;
+    border-radius: 20px;
+    color: white;
+    margin-top: 30px;
+}
+
+.subsc__button:hover {
+    border: 2px solid $style-color-buttol;
+    color: $style-color-buttol;
+    background: 0 0;
 }

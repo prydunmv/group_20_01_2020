@@ -1,3 +1,140 @@
+
 .header {
-    background-color: #b4b4fb;
+    display: flex;
+    font-family: montserrat,sans-serif;
+    background-color: white; 
+    flex-wrap: wrap; 
+    position: fixed; 
+    top:0;
+    width: 100%; 
+    margin-bottom: 1px;
+}
+a:hover {
+    text-decoration: none;
+}
+
+.header__logo {
+    display: flex;
+    margin-left: 80px;
+    padding: 20px;
+    font-size: 30px;
+    font-family: montserrat,sans-serif;
+    font-weight:$fat-content;    
+}
+
+.header__word {
+    color: black;
+    height: 35px;
+    font-weight:$fat-content;
+}
+
+.header__pro {
+    color: $slyle-color1;
+    font-weight:$fat-content;
+} 
+
+.header__ander {
+    font-size: 12px;
+    color: #969696;
+    font-weight: 500;
+    line-height: .75;
+    margin-top: 6px;
+}
+
+.header__list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0px;
+    font-weight:600;
+}
+
+.header__list-ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.header__list-li {
+    text-decoration: none;
+    margin-right: 29px;
+    list-style-type: none;
+    color: black;
+}
+
+.header__a {
+    color: black;   
+}
+
+.header__a:hover {
+    color:$slyle-color1 ;
+}
+
+.header__section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.header__button {
+    display: flex;
+    justify-content: center;
+    width: 230px;
+    height: 46px;
+    padding: 13px 10px;
+    background-color:$style-color-buttol;
+    border: 2px solid transparent;
+    border-color: $style-color-buttol;
+    font-size: 14px;
+    transition: .5s;
+    border-radius: 20px;
+    color: white;
+}
+
+.header__button:hover {
+    border: 2px solid $style-color-buttol;
+    color: $style-color-buttol;
+    background: 0 0;
+}
+    
+.header__info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    text-align: center;
+}
+
+.header__a-b {
+    color: white;
+}
+
+.header__a-b:hover {
+    color: $style-color-buttol;
+}
+
+.header__li-info {
+    list-style-type: none;
+    margin-right: 15px;
+    width: 35px;
+    height: 35px;
+    background-color:#F0F8FF ;
+    transition: .5s;
+    border: none;
+    border-radius: 50px;
+    text-align: center;
+    padding: 7px 2px;
+}
+
+.header__li-info:hover {
+    background-color:$slyle-color1  ;
+}
+
+.fab-color {
+    color: black;
+    
 }
